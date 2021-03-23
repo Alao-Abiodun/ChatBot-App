@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "type": "module",
+    "start": "node ./src/index.js",
     "dev": "nodemon ./src/index.js"
   },
   "repository": {
@@ -21,6 +22,7 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.0.0"
   }
 }
